@@ -69,6 +69,9 @@ public class p21609 {
 		// 블록이 있을 때 까지 반복
 		while (true) {
 			searchBlock();
+			if (pq.isEmpty()) {
+				break;
+			}
 			Point p = pq.poll();
 			pq.clear();
 			// 최소 조건 만족 X
