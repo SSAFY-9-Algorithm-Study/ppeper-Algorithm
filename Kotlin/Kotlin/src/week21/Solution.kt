@@ -1,4 +1,4 @@
-package week22
+package week21
 
 // 억억단을 외우자
 class Solution {
